@@ -1,0 +1,103 @@
+MERN START
+
+npm init
+npm i express cors nodemon
+node index.js
+
+projbackend start 
+
+npm install dependencies copy paste
+
+npm install body-parser cookie-parser cors dotenv express express-jwt express-validator formidable i jsonwebtoken lodash mongoose morgan nodemon npm uuid
+
+
+npm start
+
+crypto using password hash
+
+https://nodejs.org/api/crypto.html
+
+
+https://expressjs.com/en/guide/using-middleware.html
+https://expressjs.com/en/guide/writing-middleware.html next()
+MIDDLEWARES used 
+	=> body-parser
+	=> cookie-parser	
+	=> cors  (frotend, backend connect)
+	
+	
+	https://www.npmjs.com/package/body-parser
+	https://www.npmjs.com/package/cookie-parser
+	https://www.npmjs.com/package/cors
+	
+	
+	
+POSTMAN ROUTE
+POST http://localhost:8000/api/signup
+{
+    "name": "Arun",
+    "lastname": "A",
+    "email": "arun@gmail.com",
+    "password": "12345"
+}
+
+POST http://localhost:8000/api/signin
+{
+    "email":  "smkamal.sm@gmail.com",
+    "password": "12345"
+}
+
+Validator
+https://express-validator.github.io/docs/custom-error-messages.html
+
+mongodb local commpase connect
+
+mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false
+
+
+webtoken used cookie-parser to 
+
+https://www.npmjs.com/package/jsonwebtoken
+https://www.npmjs.com/package/express-jwt
+
+https://jwt.io/
+
+
+
+mongoose populate
+https://mongoosejs.com/docs/populate.html
+router.param(name, callback)
+http://expressjs.com/en/5x/api.html#router.param
+
+routs create
+
+model => routs to validate => controller to create auth
+
+
+file upload using
+https://www.npmjs.com/package/formidable
+https://lodash.com/
+
+
+mongoose bulk write 
+https://mongoosejs.com/docs/api.html#model_Model.bulkWrite
+
+
+
+
+
+mern front end
+
+npm install react-router-dom query-string
+
+
+
+first auth => core => 
+
+https://serverless-stack.com/chapters/environments-in-create-react-app.html
+
+https://reactrouter.com/
+https://reactrouter.com/web/example/auth-workflow
+https://reactrouter.com/web/api/history/history-is-mutable
+
+https://reactjs.org/docs/fragments.html ( sign in & signup )
