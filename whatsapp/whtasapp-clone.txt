@@ -1,0 +1,88 @@
+npm create-react-app whatsapp
+
+
+Authandication 
+Hosting
+for firebase used
+https://console.firebase.google.com/u/0/project/whatsapp-8c314/settings/general/web:NzI4MzFkZjQtZTVlZS00ZjlhLTg0ZTgtNWVlM2UyZTRmZjUz#
+
+npm install -g firebase-tools
+
+firebase login
+firebase init
+firebase deploy
+
+
+<Chat />   CTRL + Space bar Auto imports
+
+
+
+material UI
+
+https://material-ui.com/
+npm install @material-ui/core
+
+https://material-ui.com/components/icons/#material-icons
+npm install @material-ui/icons
+
+https://material-ui.com/components/material-icons/
+
+
+
+whatsapp-backend
+
+git init
+npm init
+npm i express mongoose cors pusher axios
+
+npm i -g nodemon
+node server.js (or)
+nodemon server.js  (start)
+nodemon --inspect server.js
+
+FCWTSzL8RWRdCMZr
+
+
+//router
+POST 
+http://localhost:9000/
+POST BODY  JSON 
+http://localhost:9000/messages/new
+
+sender
+{
+    "message": "Hi this is working",
+    "name": "kamal",
+    "timestamp": "i am demo timestamp",
+    "received": false
+}
+
+receiver
+{
+    "message": "Hi kamal this is working realtime",
+    "name": "Jegen",
+    "timestamp": "i am demo timestamp",
+    "received": true
+}
+
+GET Body JSON
+http://localhost:9000/messages/sync
+
+all messages here
+
+PUSHER login and create channel
+https://dashboard.pusher.com/apps/1204365/getting_started
+npm install pusher
+Debug console show added new trigger
+
+
+
+refer js
+<span className="chat_timestamp">{new Date(message.timestamp?.toDate()).toUTCString()}</span>
+<span className="chat_timestamp">{new Date().toUTCString()}</span>
+
+<input type="text" value={input} onChange={(e) => SettingsInputAntenna(e.target.value)} placeholder="Type a message" />
+            <button type="submit" onClick={sendMessage}>Send a message</button>
+			
+			
+			
